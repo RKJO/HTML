@@ -1,0 +1,30 @@
+.ContactForm{
+  font-family: "Times New Roman";
+  color: grey;
+  clear: left;
+  float: left;
+}
+
+.rentCarForm{
+  float: left;
+  clear: left;
+}
+
+legend {
+  padding: 5px 10px;
+  border-radius: 0;
+  border: 0;
+  font-size: 20px;
+}
+
+#title{
+  font-size: 30px;
+  float: left;
+  clear: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+fieldset{
+  width: 600px;
+}

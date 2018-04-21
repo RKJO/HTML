@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form class="ContactForm" action="index.html" method="post">
+    <fieldset>
+        <div>
+          <legend>Your Name</legend>
+          <label>
+            <input type="text" name="name" placeholder="Your name">
+          </label>
+          <legend>Your e-mail aderess</legend>
+          <label>
+            <input type="email" name="e-mail" placeholder="Your e-mail">
+          </label>
+          <legend>Your mesage</legend>
+          <label>
+            <textarea rows="10" cols="80" placeholder="Please describe your question or comment"></textarea>
+          </label>
+          <legend></legend>
+          <input type="submit" value="Send">
+        </div>
+    </fieldset>
+</form>
+
+  <p id="title">Car rental</p>
+
+  <form class="rentCarForm" action="index.html" method="post">
+    <fieldset>
+      <legend>Choose car class</legend>
+        <input type="radio" id="car1" name="carClass">
+          <label for="car1">mini</label><br>
+        <input type="radio" id="car2" name="carClass" >
+          <label for="car2">economy</label><br>
+        <input type="radio" id="car3" name="carClass" value="phone">
+          <label for="car3">compct</label><br>
+        <input type="radio" id="car4" name="carClass" value="phone">
+          <label for="car4">SUV</label><br>
+        <input type="radio" id="car5" name="carClass" value="phone">
+          <label for="car5">VAN</label><br>
+    </fieldset>
+    <fieldset>
+      <legend>Choose optional equipment</legend>
+        <input type="checkbox" id="equip1" name="carClass">
+          <label for="equip1">child seat</label><br>
+        <input type="checkbox" id="equip2" name="carClass" checked>
+          <label for="equip2">GPS</label><br>
+        <input type="checkbox" id="equip3" name="carClass" value="phone">
+          <label for="equip3">DVD player</label><br>
+    </fieldset>
+    <label>Rental start date
+      <input type="date" name="date" placeholder="rrrr-mm-dd">
+    </label><br>
+    <label>Number of days
+      <input type="number" name="days">
+    </label><br>
+    <label>Your password
+      <input type="text" name="password">
+    </label><br>
+    <input type="submit" name="order" value="Order now!">
+  </form>
+<ol>
+  <li>Asia</li>
+  
+</ol>
+
+</body>
+</html>
