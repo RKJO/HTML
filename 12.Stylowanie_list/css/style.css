@@ -1,0 +1,10 @@
+.squerelist{
+  list-style-type: square;
+}
+
+.menulist li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 20px;
+  text-decoration-color: #116493;
+  }
