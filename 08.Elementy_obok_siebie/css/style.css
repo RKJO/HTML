@@ -1,0 +1,23 @@
+
+  div {
+    width: 100px;
+    height: 100px;
+    border-width: 1px;
+    border: solid black;
+  }
+
+  #first-div {
+    float: left;
+  }
+
+  #second-div {
+    float: right;
+  }
+
+ .thirddiv p{
+	float: left;
+    	width: 80px;
+    border: 2px dotted red;
+    margin-top: 120px;
+    display: inline-block;
+  }
