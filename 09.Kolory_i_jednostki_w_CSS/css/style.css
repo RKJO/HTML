@@ -1,0 +1,31 @@
+#spanRed{
+    color: red;
+  }
+#spanGreen{
+    color: green;
+    }
+#spanDarkkhaki{
+  color: darkkhaki;
+  }
+.colurUnits{
+
+  }
+#hex{
+  background-color: #1927c7;
+  }
+#rgba{
+  background-color: rgba(36,148,32, 0.5);
+  }
+#hsl{
+  background-color: hsl(99, 71%, 28%);
+}
+.container{
+  background-color: #7c156e;
+  width: 200px;
+  }
+#widthPercent{
+  width: 50%;
+  }
+#wdthEm{
+  width: 10em;
+}
